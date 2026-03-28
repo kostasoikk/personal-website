@@ -1,17 +1,102 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Konstantinos Oikonomidis</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: white;
+            margin: 0;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 42px;
+        }
+
+        h2 {
+            color: #38bdf8;
+            margin-top: 40px;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 20px;
+            border-radius: 12px;
+            margin-top: 20px;
+        }
+
+        a {
+            color: #38bdf8;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .skills span {
+            display: inline-block;
+            background: #334155;
+            padding: 8px 12px;
+            border-radius: 8px;
+            margin: 5px;
+        }
+    </style>
 </head>
 <body>
 
-    <h1>Konstantinos Oikonomidis</h1>
-    <p>Computer Science Student</p>
+    <div class="container">
 
-    <h2>About Me</h2>
-    <p>I am learning programming and building my first projects.</p>
-<h2>Contact</h2>
-<p>Email: konstantinoscfu9@gmail.com</p>
-<p>GitHub: <a href="https://github.com/USERNAME">My GitHub</a></p>
+        <h1>Konstantinos Oikonomidis</h1>
+        <p>Computer Science Student</p>
+
+        <div class="card">
+            <h2>About Me</h2>
+            <p>I am a first-year Computer Science student learning programming and building real projects.</p>
+        </div>
+
+        <div class="card">
+            <h2>Skills</h2>
+            <div class="skills">
+                <span>Python</span>
+                <span>Java</span>
+                <span>HTML</span>
+                <span>SQL</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Projects</h2>
+
+            <h3>Python Calculator</h3>
+            <p>A simple calculator built using Python.</p>
+            <a href="https://github.com/USERNAME/python-calculator">View Project</a>
+
+            <br><br>
+
+            <h3>Personal Website</h3>
+            <p>This website built using HTML.</p>
+            <a href="https://github.com/USERNAME/personal-website">View Project</a>
+        </div>
+
+        <div class="card">
+            <h2>Contact</h2>
+            <p>Email: konstantinoscfu9@gmail.com</p>
+            <p>GitHub: <a href="https://github.com/USERNAME">My GitHub</a></p>
+        </div>
+
+    </div>
+
 </body>
 </html>
